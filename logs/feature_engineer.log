@@ -1,7 +1,0 @@
-2025-07-02 19:24:09,668 [INFO] Starting feature_engineer.py
-2025-07-02 19:24:09,707 [INFO] Loaded DataFrame shape: (18960, 5)
-2025-07-02 19:24:09,707 [INFO] Creating time-based features...
-2025-07-02 19:24:09,707 [INFO] Created time-based features: ['timestamp', 'temperature', 'humidity', 'pressure', 'wind_speed', 'hour', 'day', 'month', 'weekday']
-2025-07-02 19:24:09,739 [INFO] Dropped 1 rows due to target shift (final shape: (18959, 10))
-2025-07-02 19:24:09,757 [INFO] No duplicate rows detected
-2025-07-02 19:24:09,882 [INFO] Engineered DataFrame saved to C:\Users\DELL\Data Science\Machine Learning\Supervised Learning\Capstone Projects\weather-predictor\data\DATA_FRAME.csv
