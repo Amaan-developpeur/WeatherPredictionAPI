@@ -1,0 +1,4 @@
+2025-07-02 16:48:55,261 [INFO] Starting fetch_and_save.py
+2025-07-02 16:48:55,261 [INFO] Logger is working. This should appear at the top.
+2025-07-02 16:48:55,261 [INFO] Fetching weather data for Hyderabad (17.3850, 78.4867) from 2023-05-01 to 2025-06-28
+2025-07-02 16:48:59,569 [INFO] Saved 18960 rows to C:\Users\DELL\Data Science\Machine Learning\Supervised Learning\Capstone Projects\weather-predictor\data\historical_weather_hyd.csv

@@ -1,0 +1,32 @@
+2025-07-02 20:02:36,582 [INFO] Starting evaluate_model.py
+2025-07-02 20:02:36,610 [ERROR] Failed to load model or data
+Traceback (most recent call last):
+  File "C:\Users\DELL\Data Science\Machine Learning\Supervised Learning\Capstone Projects\weather-predictor\scripts\evaluate_model.py", line 29, in <module>
+    model = joblib.load(MODEL_PATH)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\weatherapi\Lib\site-packages\joblib\numpy_pickle.py", line 658, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\weatherapi\Lib\site-packages\joblib\numpy_pickle.py", line 577, in _unpickle
+    obj = unpickler.load()
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\weatherapi\Lib\pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+  File "C:\Users\DELL\anaconda3\envs\weatherapi\Lib\pickle.py", line 1538, in load_stack_global
+    self.append(self.find_class(module, name))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\weatherapi\Lib\pickle.py", line 1582, in find_class
+    return _getattribute(sys.modules[module], name)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\weatherapi\Lib\pickle.py", line 331, in _getattribute
+    raise AttributeError("Can't get attribute {!r} on {!r}"
+AttributeError: Can't get attribute 'FeatureBuilder' on <module '__main__' from 'C:\\Users\\DELL\\Data Science\\Machine Learning\\Supervised Learning\\Capstone Projects\\weather-predictor\\scripts\\evaluate_model.py'>
+2025-07-02 20:18:59,570 [INFO] Starting evaluate_model.py
+2025-07-02 20:18:59,881 [INFO] Model and data loaded successfully
+2025-07-02 20:21:32,513 [INFO] Starting evaluate_model.py
+2025-07-02 20:21:32,766 [INFO] Model and data loaded successfully
+2025-07-02 20:21:32,829 [INFO] Full‑dataset evaluation:
+2025-07-02 20:21:32,829 [INFO] MAE  = 0.4207
+2025-07-02 20:21:32,829 [INFO] RMSE = 0.6371
+2025-07-02 20:21:32,829 [INFO] R²   = 0.9796
+2025-07-02 20:21:32,829 [INFO] Model evaluation passed
