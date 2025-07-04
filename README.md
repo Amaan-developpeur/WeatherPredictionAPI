@@ -13,7 +13,7 @@ This project simulates an end-to-end ML production system under minimal infrastr
 
 ## 2. Features
 
-- Hourly live weather data ingestion from OpenWeatherMap API
+- Hourly live weather data ingestion using the Open-Meteo Archive API.
 - Supervised ML model predicting next-hour temperature
 - FastAPI REST API for inference
 - Dockerized app containerization
