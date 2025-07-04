@@ -119,7 +119,8 @@ pip install -r requirements.txt
 Create a `.env` file with:
 
 ```
-OPENWEATHERMAP_API_KEY = "https://archive-api.open-meteo.com/v1/archive" [To do API Call]
+OPENWEATHERMAP_API_KEY = "https://archive-api.open-meteo.com/v1/archive" 
+[To do API Call]
 ```
 
 ---
@@ -170,11 +171,7 @@ CI Badge:
 
 ```
 {
-  "temperature": 31.2,
-  "humidity": 76,
-  "pressure": 1005.3,
-  "wind_speed": 4.8
-}
+  Directly hit the execute buttoon, it will fetch the live data and do prediction about the next hour.
 ```
 
 ### 11.2 Example Output
@@ -195,13 +192,13 @@ Visit Swagger docs at: `http://localhost:8000/docs`
 
 This shows the interactive API documentation served at `/docs`:
 
-![Swagger UI](images/swagger.png)
+![Swagger UI](images/output.png)
 
 ### 12.2 Model Prediction Output
 
 Example response after hitting the `/predict-live` endpoint:
 
-![Prediction Output](images/output.png)
+![Prediction Output](images/swagger.png)
 
 ---
 
