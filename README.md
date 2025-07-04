@@ -7,7 +7,7 @@ Production-grade weather prediction pipeline using machine learning, real-time A
 
 ## 1. Project Motivation
 
-This project simulates an end-to-end ML production system under minimal infrastructure constraints (no databases). It focuses on reproducible engineering workflows, live data integration, and clean, testable deployment — suitable for backend ML portfolios.
+This project simulates an end-to-end ML production system under minimal infrastructure constraints (no databases). It focuses on reproducible engineering workflows, live data integration, and clean, testable deployment.
 
 ---
 
@@ -157,13 +157,6 @@ This shows the container running and exposing the FastAPI app:
 - Workflow: `.github/workflows/ci.yml`
 - Stages: checkout → setup Python 3.11 → install dependencies → run tests → (optional) Docker build
 
-CI Badge:
-
-```
-![CI](https://github.com/<your-username>/weather-predictor/actions/workflows/ci.yml/badge.svg)
-```
-
----
 
 ## 11. API Usage
 
