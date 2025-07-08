@@ -15,7 +15,7 @@ This project simulates an end-to-end ML production system under minimal infrastr
 
 - Hourly live weather data ingestion using the Open-Meteo Archive API.
 - Supervised ML model predicting next-hour temperature
-- FastAPI REST API for inference
+- FastAPI for inference
 - Dockerized app containerization
 - CI pipeline with Pytest and Docker build check
 - CSV-based storage (no SQL/NoSQL database used)
@@ -104,7 +104,7 @@ Open: http://127.0.0.1:8000/docs
 ### 6.1 Clone the Repository
 
 ```
-git clone https://github.com/<your-username>/weather-predictor.git
+git clone https://github.com/Amaan-developpeur/weather-predictor.git
 cd weather-predictor
 ```
 
