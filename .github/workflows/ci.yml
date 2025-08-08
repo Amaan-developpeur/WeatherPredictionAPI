@@ -21,7 +21,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 🔧 Build everything tests depend on
+      # Build everything tests depend on
       - name: Generate data & train model
         run: |
           python scripts/fetch_and_save.py
