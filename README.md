@@ -1,5 +1,5 @@
 
-# Weather Forecasting System (ML + FastAPI + Docker + CI/CD)
+# Weather Forecasting System (ML + FastAPI + Docker + CI)
 
 Production-grade weather prediction pipeline using machine learning, real-time API data collection, FastAPI-based model deployment, and automation with GitHub Actions — all powered by CSV file storage only.
 
